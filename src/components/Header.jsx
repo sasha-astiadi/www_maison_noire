@@ -71,7 +71,7 @@ function MobileNavigation() {
         <MobileNavLink href="/dahabiyas">DAHABIYAS</MobileNavLink>
         <MobileNavLink href="/experiences">EXPERIENCES</MobileNavLink>
         <NavLink href="/itinerary">ITINERARY</NavLink>
-        <MobileNavLink href="#pricing">GALLERY</MobileNavLink>
+        <MobileNavLink href="/gallery">GALLERY</MobileNavLink>
         <hr className="m-2 border-slate-300/40" />
         <MobileNavLink href="/login">BOOK NOW</MobileNavLink>
       </PopoverPanel>

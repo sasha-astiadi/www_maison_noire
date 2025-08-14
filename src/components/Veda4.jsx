@@ -2,16 +2,12 @@
 
 import { useState } from 'react'
 import {
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
   Tab,
   TabGroup,
   TabList,
   TabPanel,
   TabPanels,
 } from '@headlessui/react'
-import { MinusIcon, PlusIcon } from '@heroicons/react/24/outline'
 
 const product = {
   name: 'VEDA IV',
@@ -166,35 +162,17 @@ export default function Example() {
                 Additional details
               </h2>
 
-              <div className="divide-y divide-gray-200 border-t">
-                {product.details.map((detail) => (
-                  <Disclosure key={detail.name} as="div">
-                    <h3>
-                      <DisclosureButton className="group relative flex w-full items-center justify-between py-6 text-left">
-                        <span className="text-sm font-medium text-gray-900 group-open:text-indigo-600">
-                          {detail.name}
-                        </span>
-                        <span className="ml-6 flex items-center">
-                          <PlusIcon
-                            aria-hidden="true"
-                            className="block h-6 w-6 text-gray-400 group-hover:text-gray-500 group-open:hidden"
-                          />
-                          <MinusIcon
-                            aria-hidden="true"
-                            className="hidden h-6 w-6 text-indigo-400 group-hover:text-indigo-500 group-open:block"
-                          />
-                        </span>
-                      </DisclosureButton>
-                    </h3>
-                    <DisclosurePanel className="prose prose-sm pb-6">
-                      <ul role="list">
-                        {detail.items.map((item) => (
-                          <li key={item}>{item}</li>
-                        ))}
-                      </ul>
-                    </DisclosurePanel>
-                  </Disclosure>
-                ))}
+              <div className="border-t border-gray-200 pt-6">
+                <h3 className="text-lg font-medium text-gray-900">FEATURES</h3>
+                <div className="mt-4">
+                  <ul role="list" className="list-disc pl-5 space-y-2">
+                    {product.details[0].items.map((item) => (
+                      <li key={item} className="text-gray-700">
+                        <span className="text-gray-900">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
               <form className="mt-6">
                 <div className="mt-10 flex">
