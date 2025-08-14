@@ -1,6 +1,10 @@
 #!/bin/bash
 cd "$(dirname "$0")"
 
+# Ensure all shell scripts are executable
+chmod +x *.sh
+
+
 PREFIX="veda"
 
 echo "building for folder: /$PREFIX/"
