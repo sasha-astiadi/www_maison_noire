@@ -60,7 +60,7 @@ function MobileNavigation() {
       </PopoverButton>
       <PopoverBackdrop
         transition
-        className="fixed inset-0 bg-slate-300/50 duration-150 data-[closed]:opacity-0 data-[enter]:ease-out data-[leave]:ease-in"
+        className="fixed inset-0 bg-slate-50/50 duration-150 data-[closed]:opacity-0 data-[enter]:ease-out data-[leave]:ease-in"
       />
       <PopoverPanel
         transition
@@ -81,7 +81,7 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-sm py-4">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black/20 backdrop-blur-sm py-4">
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">

@@ -1545,6 +1545,16 @@ select {
 .bg-black\/30 {
   background-color: rgb(0 0 0 / 0.3);
 }
+.bg-\[\#28602C\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(40 96 44 / var(--tw-bg-opacity));
+}
+.bg-slate-100\/50 {
+  background-color: rgb(241 245 249 / 0.5);
+}
+.bg-slate-50\/50 {
+  background-color: rgb(248 250 252 / 0.5);
+}
 .bg-opacity-40 {
   --tw-bg-opacity: 0.4;
 }
@@ -1923,6 +1933,22 @@ select {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.text-\[\#48774B\] {
+  --tw-text-opacity: 1;
+  color: rgb(72 119 75 / var(--tw-text-opacity));
+}
+.text-\[\#95C098\] {
+  --tw-text-opacity: 1;
+  color: rgb(149 192 152 / var(--tw-text-opacity));
+}
+.text-\[\#749F77\] {
+  --tw-text-opacity: 1;
+  color: rgb(116 159 119 / var(--tw-text-opacity));
+}
+.text-gold-100 {
+  --tw-text-opacity: 1;
+  color: rgb(245 183 79 / var(--tw-text-opacity));
+}
 .antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2041,6 +2067,11 @@ select {
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
   backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
+.backdrop-blur-md {
+  --tw-backdrop-blur: blur(12px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -2118,6 +2149,10 @@ select {
 .hover\:bg-\[\#3a5f3d\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(58 95 61 / var(--tw-bg-opacity));
+}
+.hover\:bg-\[\#1f4a22\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 74 34 / var(--tw-bg-opacity));
 }
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
@@ -2218,6 +2253,9 @@ select {
 .focus-visible\:outline-\[\#49784C\]:focus-visible {
   outline-color: #49784C;
 }
+.focus-visible\:outline-\[\#28602C\]:focus-visible {
+  outline-color: #28602C;
+}
 .focus-visible\:ring-slate-300:focus-visible {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(203 213 225 / var(--tw-ring-opacity));
@@ -2237,6 +2275,10 @@ select {
 .active\:bg-\[\#2d4730\]:active {
   --tw-bg-opacity: 1;
   background-color: rgb(45 71 48 / var(--tw-bg-opacity));
+}
+.active\:bg-\[\#163818\]:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 56 24 / var(--tw-bg-opacity));
 }
 .active\:text-gold-300:active {
   --tw-text-opacity: 1;
@@ -2452,6 +2494,10 @@ select {
   .sm\:rounded-t-xl {
     border-top-left-radius: 0.75rem;
     border-top-right-radius: 0.75rem;
+  }
+
+  .sm\:p-6 {
+    padding: 1.5rem;
   }
 
   .sm\:px-0 {
@@ -3032,6 +3078,10 @@ select {
 
   .xl\:gap-y-0 {
     row-gap: 0px;
+  }
+
+  .xl\:p-8 {
+    padding: 2rem;
   }
 }
 

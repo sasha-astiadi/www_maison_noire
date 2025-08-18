@@ -43,7 +43,7 @@ export function Hero() {
           <span className="relative">REIMAGINED</span>
         </span>{' '}
       </h1>
-      <p className="relative z-10 mx-auto mt-6 max-w-2xl lg:text-xl text-sm tracking-wide font-normal text-slate-300">
+      <p className="relative z-10 mx-auto mt-6 max-w-2xl lg:text-xl text-sm tracking-wide font-normal text-slate-100">
       Discover ancient Egypt and feel its special energies across the enchanting Nile river with our sophisticated cruises, boat rentals, healing packages, corporate retreats, private holidays, & more.
       </p>
       <div className="relative z-10 mt-10 mb-96 lg:mb-40 lg:py-2 xs:mb-20 flex justify-center gap-x-6 relative z-10">
@@ -59,8 +59,8 @@ export function Hero() {
 
       {/* SECOND SECTION */}
 
-      <div className="relative z-10 lg:pt-10">
-        <p className="font-display text-large lg:text-2xl font-semibold italic text-slate-900">
+      <div className="relative z-10 pt-10">
+        <p className="mt-10 font-display text-large lg:text-2xl font-semibold italic text-slate-900">
           As seen and featured on
         </p>
         <ul

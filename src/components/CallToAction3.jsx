@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-call-to-action4.png'
-import logoVeda from '@/images/logos/veda_logo.svg'  
+import logoVeda from '@/images/logos/veda_logo2.svg'  
 
 export function CallToAction3() {
   return (
@@ -33,7 +33,7 @@ export function CallToAction3() {
             <li key={groupIndex}>
               <ul
                 role="list"
-                className="flex flex-col items-center gap-y-2 sm:flex-row sm:gap-x-12 sm:gap-y-0"
+                className="flex flex-col items-center gap-y-2 sm:flex-row sm:gap-x-12 sm:gap-y-0 "
               >
                 {group.map((company) => (
                   <li key={company.name} className="flex">

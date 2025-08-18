@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-call-to-action.jpg'
-import logoVeda from '@/images/logos/veda.svg'  
+import logoVeda2 from '@/images/logos/veda_icon2.svg'  
 
 export function CallToAction() {
   return (
@@ -27,7 +27,7 @@ export function CallToAction() {
         >
           {[
             [
-              { name: 'veda', logo: logoVeda },
+              { name: 'veda', logo: logoVeda2 },
             ],
           ].map((group, groupIndex) => (
             <li key={groupIndex}>
@@ -47,7 +47,7 @@ export function CallToAction() {
           <h2 className="font-display lg:text-3xl text-xl tracking-tight text-white pt-4 lg:pt-6">
           VEDA provides an unparalleled cruise experience on the Nile, blending authenticity with sophistication. Enjoy private journeys featuring organic cuisine, hollistic activities, and a dedicated, warm-hearted crew. 
           </h2>
-          <p className="mt-4 text-xl lg:text-2xl italic tracking-tight text-gold-200">
+          <p className="mt-4 text-xl lg:text-2xl italic tracking-tight text-gold-100">
           Discover a cruise like no other with us on the Nile.
           </p>
         </div>
