@@ -909,6 +909,9 @@ select {
 .left-6 {
   left: 1.5rem;
 }
+.right-0 {
+  right: 0px;
+}
 .top-0 {
   top: 0px;
 }
@@ -944,6 +947,12 @@ select {
 }
 .z-50 {
   z-index: 50;
+}
+.z-40 {
+  z-index: 40;
+}
+.-z-50 {
+  z-index: -50;
 }
 .order-first {
   order: -9999;
@@ -1399,6 +1408,9 @@ select {
 .border {
   border-width: 1px;
 }
+.border-b {
+  border-bottom-width: 1px;
+}
 .border-t {
   border-top-width: 1px;
 }
@@ -1413,6 +1425,9 @@ select {
 .border-slate-100 {
   --tw-border-opacity: 1;
   border-color: rgb(241 245 249 / var(--tw-border-opacity));
+}
+.border-slate-200\/20 {
+  border-color: rgb(228 231 235 / 0.2);
 }
 .border-slate-300\/40 {
   border-color: rgb(203 213 225 / 0.4);
@@ -1504,6 +1519,31 @@ select {
 }
 .bg-white\/10 {
   background-color: rgb(255 255 255 / 0.1);
+}
+.bg-white\/95 {
+  background-color: rgb(255 255 255 / 0.95);
+}
+.bg-transparent {
+  background-color: transparent;
+}
+.bg-\[\#49784C\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(73 120 76 / var(--tw-bg-opacity));
+}
+.bg-white\/5 {
+  background-color: rgb(255 255 255 / 0.05);
+}
+.bg-black\/5 {
+  background-color: rgb(0 0 0 / 0.05);
+}
+.bg-black\/10 {
+  background-color: rgb(0 0 0 / 0.1);
+}
+.bg-black\/20 {
+  background-color: rgb(0 0 0 / 0.2);
+}
+.bg-black\/30 {
+  background-color: rgb(0 0 0 / 0.3);
 }
 .bg-opacity-40 {
   --tw-bg-opacity: 0.4;
@@ -1626,6 +1666,10 @@ select {
 .py-32 {
   padding-top: 8rem;
   padding-bottom: 8rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .py-6 {
   padding-top: 1.5rem;
@@ -1992,6 +2036,11 @@ select {
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
+.backdrop-blur-sm {
+  --tw-backdrop-blur: blur(4px);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -2065,6 +2114,10 @@ select {
 }
 .hover\:bg-white\/10:hover {
   background-color: rgb(255 255 255 / 0.1);
+}
+.hover\:bg-\[\#3a5f3d\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(58 95 61 / var(--tw-bg-opacity));
 }
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
@@ -2162,6 +2215,9 @@ select {
 .focus-visible\:outline-white:focus-visible {
   outline-color: #fff;
 }
+.focus-visible\:outline-\[\#49784C\]:focus-visible {
+  outline-color: #49784C;
+}
 .focus-visible\:ring-slate-300:focus-visible {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(203 213 225 / var(--tw-ring-opacity));
@@ -2177,6 +2233,10 @@ select {
 .active\:bg-slate-100:active {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+.active\:bg-\[\#2d4730\]:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(45 71 48 / var(--tw-bg-opacity));
 }
 .active\:text-gold-300:active {
   --tw-text-opacity: 1;
@@ -2289,6 +2349,10 @@ select {
 
   .sm\:contents {
     display: contents;
+  }
+
+  .sm\:h-9 {
+    height: 2.25rem;
   }
 
   .sm\:w-auto {
@@ -2479,6 +2543,10 @@ select {
     display: none;
   }
 
+  .md\:h-10 {
+    height: 2.5rem;
+  }
+
   .md\:w-96 {
     width: 24rem;
   }
@@ -2642,6 +2710,10 @@ select {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:h-11 {
+    height: 2.75rem;
   }
 
   .lg\:h-full {
@@ -2930,6 +3002,10 @@ select {
 
   .xl\:mr-0 {
     margin-right: 0px;
+  }
+
+  .xl\:h-12 {
+    height: 3rem;
   }
 
   .xl\:max-w-none {

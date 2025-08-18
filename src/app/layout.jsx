@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         lexend.variable,
       )}
     >
-      <body className="flex h-full flex-col">{children}</body>
+      <body className="flex h-full flex-col pt-20">{children}</body>
     </html>
   )
 }

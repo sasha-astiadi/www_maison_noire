@@ -81,12 +81,12 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="py-10">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-sm py-4">
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
-            <Link href="#" aria-label="Home">
-              <Logo className="h-10 w-auto" />
+            <Link href="#" aria-label="Home" className="overflow-visible">
+              <Logo className="h-8 w-auto max-w-none sm:h-9 md:h-10 lg:h-11 xl:h-12" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/">HOME</NavLink>

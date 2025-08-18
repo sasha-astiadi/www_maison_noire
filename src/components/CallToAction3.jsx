@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-call-to-action4.png'
-import logoVeda from '@/images/logos/logo_name.svg'  
+import logoVeda from '@/images/logos/veda_logo.svg'  
 
 export function CallToAction3() {
   return (
