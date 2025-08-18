@@ -12,7 +12,7 @@ export NEXT_PUBLIC_BASE_PATH="/$PREFIX"
 
 # mkdir -p "out"
 
-# pnpm install --frozen-lockfile
+pnpm install
 pnpm run build
 
 # local mirror (optional)

@@ -9,6 +9,8 @@ import { Pricing } from '@/components/Pricing'
 import Route from '@/components/Route';
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
+import { Boat } from '@/components/Boat'
+import { Experiences } from '@/components/Experiences'
 import ThirdFeatures from '@/components/ThirdFeatures'
 import NewFeatures from '@/components/NewFeatures'
 import NewFeatures2 from '@/components/NewFeatures2'
@@ -17,6 +19,7 @@ import Boats from '@/components/Boats'
 import Carousel from '@/components/Carousel'
 import CNNVIDEO from '@/components/CNNVIDEO'
 
+
 export default function Home() {
   return (
     <>
@@ -24,7 +27,8 @@ export default function Home() {
       <main>
         <Hero />
         <CallToAction />
-        <SecondaryFeatures />
+        <Experiences />
+        <Boat />
         <NewFeatures />
         <NewFeatures2 />
         <CallToAction2 />
