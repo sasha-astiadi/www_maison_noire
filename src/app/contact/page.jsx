@@ -1,12 +1,15 @@
 import { ContactHero } from "@/components/ContactHero"
+import { Header } from "@/components/Header"
+import { Footer } from "@/components/Footer"
 
 export default function Contact() {
   return (
     <>
-      <ContactHero />
+      <Header />
       <main>
-        {/* Additional contact-related components can be added here */}
+        <ContactHero />
       </main>
+      <Footer />
     </>
   )
 }

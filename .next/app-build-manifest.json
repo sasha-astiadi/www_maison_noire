@@ -16,10 +16,30 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/contact/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
+      "static/chunks/app/_not-found/page.js"
+    ],
+    "/story/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/story/page.js"
+    ],
+    "/dahabiyas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dahabiyas/page.js"
+    ],
+    "/experiences/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/experiences/page.js"
+    ],
+    "/itinerary/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/itinerary/page.js"
     ]
   }
 }

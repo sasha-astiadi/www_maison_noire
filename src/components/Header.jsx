@@ -70,8 +70,7 @@ function MobileNavigation() {
         <MobileNavLink href="/story">STORY</MobileNavLink>
         <MobileNavLink href="/experiences">EXPERIENCES</MobileNavLink>
         <MobileNavLink href="/dahabiyas">DAHABIYAS</MobileNavLink>
-        <NavLink href="/itinerary">ITINERARY</NavLink>
-        <MobileNavLink href="/gallery">GALLERY</MobileNavLink>
+        <MobileNavLink href="/itinerary">ITINERARY</MobileNavLink>
         <hr className="m-2 border-slate-300/40" />
         <MobileNavLink href="/contact">BOOK NOW</MobileNavLink>
       </PopoverPanel>
@@ -85,7 +84,7 @@ export function Header() {
       <Container>
         <nav className="relative z-50 flex justify-between">
           <div className="flex items-center md:gap-x-12">
-            <Link href="#" aria-label="Home" className="overflow-visible">
+            <Link href="/" aria-label="Home" className="overflow-visible">
               <Logo className="h-8 w-auto max-w-none sm:h-9 md:h-10 lg:h-11 xl:h-12" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
@@ -94,7 +93,6 @@ export function Header() {
               <NavLink href="/experiences">EXPERIENCES</NavLink>
               <NavLink href="/dahabiyas">DAHABIYAS</NavLink>
               <NavLink href="/itinerary">ITINERARY</NavLink>
-              <NavLink href="#pricing">GALLERY</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">

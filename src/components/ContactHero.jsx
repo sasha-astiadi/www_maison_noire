@@ -6,9 +6,9 @@ import Image from 'next/image'
 
 export function ContactHero() {
   return (
-    <div className="relative isolate bg-gray-100">
+    <div className="relative isolate">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
-        {/* Left container (unchanged) */}
+        {/* Left container */}
         <div className="relative px-6 pt-24 pb-20 lg:static lg:px-8 lg:py-32">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
             <div className="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-gray-100 ring-1 ring-gray-900/10 lg:w-1/2">
@@ -51,9 +51,7 @@ export function ContactHero() {
               Get in Touch
             </h2>
             <p className="mt-6 text-lg/8 text-gray-600">
-              At OurWorld, we value your feedback and inquiries. Whether you're interested in our ventures, have
-              questions about our technologies, or want to collaborate, we're here to connect. Reach out to us today
-              and let's build a better digital future together.
+              At VEDA, we welcome your questions, ideas, and collaborations. Whether you’re curious about our retreats, interested in hosting a private gathering, or exploring partnership opportunities, we’re here to connect. Reach out to us today and let’s create transformative experiences along the timeless Nile.
             </p>
             <dl className="mt-10 space-y-4 text-base/7 text-gray-600">
               <div className="flex gap-x-4">
@@ -83,14 +81,14 @@ export function ContactHero() {
         </div>
 
         {/* Right container (image) */}
-        <div className="relative flex items-center justify-center bg-gray-100 px-6 lg:py-24 pt-12 pb-24 lg:px-8">
-          <div className="w-full max-w-md overflow-hidden rounded-lg shadow-lg">
+        <div className="relative bg-gray-100 overflow-hidden px-6 lg:px-8">
+          <div className="h-full w-full overflow-hidden">
             <Image
               src="/images/contact/contact.png"
-              alt="sunset"
+              alt="VEDA contact"
               width={900}
               height={600}
-              className="h-auto w-full object-cover"
+              className="h-full w-full object-cover"
             />
           </div>
         </div>
