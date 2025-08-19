@@ -6,17 +6,21 @@ import { Community } from '@/components/Community'
 import { Retreats } from '@/components/Retreats'
 import { Events } from '@/components/Events'
 import { Nomads } from '@/components/Nomads'
+import { Experience } from '@/components/Exp2'
+import FFVid from '@/components/FreeflowVideo'
 
-export default function Itinerary() {
+export default function Experiences() {
   return (
     <>
       <Header />
       <main>
-        <Exp/>
-        <Community />
+      <Experience/>
+      <Community />
         <Retreats />
         <Events />
         <Nomads />
+        <FFVid/>
+        <Exp/>
         <CallToAction3 />
       </main>
       <Footer />

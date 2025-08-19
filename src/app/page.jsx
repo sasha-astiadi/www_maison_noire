@@ -17,7 +17,7 @@ import NewFeatures2 from '@/components/NewFeatures2'
 import Activities from '@/components/Activities'
 import Boats from '@/components/Boats'
 import Carousel from '@/components/Carousel'
-import CNNVIDEO from '@/components/CNNVIDEO'
+import CnnVideo from '@/components/CnnVideo'
 
 
 export default function Home() {
@@ -34,7 +34,7 @@ export default function Home() {
         <CallToAction2 />
         <Carousel />
         <Route />
-        <CNNVIDEO />
+        <CnnVideo />
         <Testimonials />
         <CallToAction3 />
       </main>

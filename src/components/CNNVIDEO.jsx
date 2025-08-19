@@ -4,7 +4,7 @@ import { Container } from '@/components/Container'
 import React from 'react'
 
 
-const CNNVIDEO = () => {
+const CnnVideo = () => {
     return (
         <section
       id="testimonials"
@@ -21,14 +21,19 @@ const CNNVIDEO = () => {
           </p>
         </div>
       <div className="video-container">
-        <video className="video-player" autoPlay muted loop>
-          <source src="/videos/veda_cnn.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        <iframe
+          src="https://player.vimeo.com/video/371621672?autoplay=1&loop=1&muted=1"
+          width="100%"
+          height="600"
+          frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowFullScreen
+          className="rounded-lg w-full max-w-6xl mx-auto"
+        ></iframe>
       </div>
         </Container>
         </section>
     );
   };
   
-  export default CNNVIDEO;
+  export default CnnVideo;

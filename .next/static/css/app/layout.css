@@ -1075,6 +1075,9 @@ select {
 .mt-8 {
   margin-top: 2rem;
 }
+.mb-12 {
+  margin-bottom: 3rem;
+}
 .block {
   display: block;
 }
@@ -1241,6 +1244,12 @@ select {
 }
 .max-w-xs {
   max-width: 20rem;
+}
+.max-w-6xl {
+  max-width: 72rem;
+}
+.max-w-5xl {
+  max-width: 64rem;
 }
 .flex-1 {
   flex: 1 1 0%;

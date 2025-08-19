@@ -1,70 +1,74 @@
 import Image from 'next/image'
 
 import { Container } from '@/components/Container'
-import avatarImage1 from '@/images/avatars/avatar-1.png'
-import avatarImage2 from '@/images/avatars/avatar-2.png'
-import avatarImage3 from '@/images/avatars/avatar-3.png'
-import avatarImage4 from '@/images/avatars/avatar-4.png'
-import avatarImage5 from '@/images/avatars/avatar-5.png'
 
 const testimonials = [
   [
     {
       content:
-        "VEDA exceeded all my expectations. The attention to detail and personalized service made our Nile cruise a truly unforgettable experience. Highly recommend!",
+        "I had the most wonderful retreat with VEDA along the Nile. You are really immersed in its atmosphere as you slowly pass the sleepy river bank villages, local farmers going about their day, and lush green nature while surrounded by the history of the pharaohs past. It's not just a retreat with healthy eating and relaxing sessions, it's a spiritual experience where you are invited to open your heart and mind, if you let go you will leave feeling so uplifted. I will definitely be back again!",
       author: {
-        name: 'Sheryl Berge',
-        role: 'CEO at Lynch LLC',
-        image: avatarImage1,
+        name: 'Adnan',
+        role: 'Retreat Guest',
+        image: '/images/comments/Adnan.jpg',
       },
     },
     {
       content:
-        "VEDA exceeded all my expectations. The attention to detail and personalized service made our Nile cruise a truly unforgettable experience. Highly recommend!",
+        "When I set foot on the ship, my world was changed. The sincere joy and authenticity of the team, the powerful serenity of the river, the quality of the rooms with incredible views, it all puts you directly in an atmosphere of total relaxation. The humanity and the delicacy of the attention I could feel touched my heart very deeply. The experience has changed something inside of me.",
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
-      },
-    },
-  ],
-  [
-    {
-      content:
-        "I was blown away by the beauty and serenity of the VEDA dahabiyas. The personalized itinerary was perfect for our group, making every moment special and memorable.",
-      author: {
-        name: 'Leland Kiehn',
-        role: 'Founder of Kiehn and Sons',
-        image: avatarImage5,
-      },
-    },
-    {
-      content:
-        "From the luxurious accommodations to the incredible crew, VEDA made our trip down the Nile a dream come true. Can't wait to return!",
-      author: {
-        name: 'Erin Powlowski',
-        role: 'COO at Armstrong Inc',
-        image: avatarImage2,
+        name: 'Eloise',
+        role: 'Retreat Guest',
+        image: '/images/comments/eloise.jpg',
       },
     },
   ],
   [
     {
       content:
-        " The eco-friendly approach of VEDA is commendable. We enjoyed every moment, knowing we were in harmony with nature. A perfect blend of luxury and sustainability!",
+        "The VEDA trip on the Nile was not only a journey in the geographic sense but really also a journey that my heart and soul took. I was not that happy about going but when I boarded the Veda boat in Luxor, I transformed in a second from a frowning person to a smiling one. The peaceful, serene, majestic nile effects reflect on you. I will never forget the trip and every part of me is begging me to return as soon as possible.",
       author: {
-        name: 'Peter Renolds',
-        role: 'Founder of West Inc',
-        image: avatarImage3,
+        name: 'Owen',
+        role: 'Retreat Guest',
+        image: '/images/comments/owen.jpg',
       },
     },
     {
       content:
-        "Our family had the most amazing time on VEDA. The curated experiences and the hospitality of the crew were outstanding. A once-in-a-lifetime journey!",
+        "I am very fortunate to have attended a VEDA retreat on the Nile last December. It was the best Christmas gift possible: great group, magical Nile, incredible temples. VEDA's understated luxury, smart cuisine and extremely accommodating staff made the experience extra special. My personal discovery was the temples. Each temple had a unique gift to offer: Isis' motherly support, Zahmet's clarity, Osiris' protection.",
       author: {
-        name: 'Amy Hahn',
-        role: 'Director at Velocity Industries',
-        image: avatarImage4,
+        name: 'Helena',
+        role: 'Retreat Guest',
+        image: '/images/comments/helena.jpg',
+      },
+    },
+  ],
+  [
+    {
+      content:
+        "VEDA exceeded every expectation I had. The combination of ancient Egyptian culture and modern wellness practices created something truly magical. Watching the sunrise over the Nile while practicing yoga on deck was life-changing!",
+      author: {
+        name: 'Sacha',
+        role: 'Wellness Enthusiast',
+        image: '/images/comments/sacha.jpg',
+      },
+    },
+    {
+      content:
+        "As someone who travels frequently for work, I can honestly say VEDA is in a league of its own. The thoughtful curation of experiences, from temple visits with knowledgeable guides to intimate cooking classes with local ingredients, created memories I'll treasure forever. The dahabiya itself is a floating sanctuary of peace and luxury.",
+      author: {
+        name: 'Karoline',
+        role: 'Travel Consultant',
+        image: '/images/comments/karoline.jpeg',
+      },
+    },
+    {
+      content:
+        "What struck me most about VEDA was how they seamlessly blend adventure with relaxation. One moment you're exploring ancient tombs, the next you're enjoying a massage while floating down the world's most famous river. The organic meals were exceptional, and the evening discussions under the stars created bonds with fellow travelers that continue today.",
+      author: {
+        name: 'Sam',
+        role: 'Adventure Seeker',
+        image: '/images/comments/sam.jpg',
       },
     },
   ],
