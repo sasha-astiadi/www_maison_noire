@@ -20,8 +20,8 @@ export function Experiences() {
                 />
               </div>
               <div className="p-10">
-                <p className="mt-2 text-lg font-medium tracking-tight text-gray-900">Community building Space</p>
-                <p className="mt-2 max-w-xl text-sm/6 text-gray-600">
+                <p className="mt-2 text-lg font-semibold tracking-tight text-gray-900">Community building Space</p>
+                <p className="mt-2 max-w-xl text-sm lg:text-base text-gray-600">
                   Community building holds significant value by fostering a sense of belonging, providing social and emotional support, and promoting collective action. It enhances social capital, encourages collaboration. Human to human connection become more and more important as new technological times require us to collaborate more on a peer to peer level and connect on different levels with each other.
                 </p>
               </div>
@@ -37,8 +37,8 @@ export function Experiences() {
                 />
               </div>
               <div className="p-10">
-                <p className="mt-2 text-lg font-medium tracking-tight text-gray-900">Private Retreats</p>
-                <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
+                <p className="mt-2 text-lg font-semibold tracking-tight text-gray-900">Private Retreats</p>
+                <p className="mt-2 max-w-lg text-sm lg:text-base text-gray-600">
                   Designed for companies, private groups or families, veda is happy to organise your exclusive retreat experience. 
 These retreats offer the flexibility to design the itinerary and activities based on the group’s specific interests and needs.
                 </p>
@@ -55,8 +55,8 @@ These retreats offer the flexibility to design the itinerary and activities base
                 />
               </div>
               <div className="p-10">
-                <p className="mt-2 text-lg font-medium tracking-tight text-gray-900">Events & Conferences</p>
-                <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
+                <p className="mt-2 text-lg font-semibold tracking-tight text-gray-900">Events & Conferences</p>
+                <p className="mt-2 max-w-lg text-sm lg:text-base text-gray-600">
                   VEDA’s facilities are suited for hosting events, a unique venue that combines professional functionality with the tranquility of the Nile.
 An innovative setting that stands apart from traditional conference venues, promising a impactful event.
                 </p>
@@ -73,8 +73,8 @@ An innovative setting that stands apart from traditional conference venues, prom
                 />
               </div>
               <div className="p-10">
-                <p className="mt-2 text-lg font-medium tracking-tight text-gray-900">Digital Nomad Hub</p>
-                <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
+                <p className="mt-2 text-lg font-semibold tracking-tight text-gray-900">Digital Nomad Hub</p>
+                <p className="mt-2 max-w-lg text-sm lg:text-base text-gray-600">
                   A haven for remote workers seeking inspiration, focus, and balance. Our spaces combine reliable connectivity, comfortable work areas, and serene surroundings — creating the perfect environment to blend productivity with rejuvenation.
                 </p>
               </div>

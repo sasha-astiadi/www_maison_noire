@@ -1,10 +1,10 @@
 const features = [
-    { name: 'Mind and Body Practices', description: 'Activities that enhance physical well-being and mental clarity through mindful movement and meditation.' },
-    { name: 'Healing and Wellness Therapies', description: 'Therapeutic activities designed to promote relaxation, rejuvenation, and overall well-being.' },
-    { name: 'Holistic Health and Nutrition', description: 'Programs focused on nourishing the body and promoting health through mindful eating and natural remedies.' },
-    { name: 'Creative and Expressive Workshops', description: 'Opportunities for self-expression and exploration through artistic and creative endeavors.' },
-    { name: 'Relaxation and Reflection', description: 'Activities that encourage rest, introspection, and a deeper connection with oneself and the natural world.' },
-    { name: 'Entertainment and Performance Arts', description: 'Experiences that offer enjoyment and inspiration through music, dance, and captivating performances.' },
+    { name: 'Mind and Body Practices', description: 'Activities that enhance physical well-being and mental clarity through mindful movement and meditation.', image: '/images/activities/mind.jpg' },
+    { name: 'Healing and Wellness Therapies', description: 'Therapeutic activities designed to promote relaxation, rejuvenation, and overall well-being.', image: '/images/activities/healing.jpg' },
+    { name: 'Holistic Health and Nutrition', description: 'Programs focused on nourishing the body and promoting health through mindful eating and natural remedies.', image: '/images/activities/holistic.jpg' },
+    { name: 'Creative and Expressive Workshops', description: 'Opportunities for self-expression and exploration through artistic and creative endeavors.', image: '/images/activities/creative.jpg' },
+    { name: 'Relaxation and Reflection', description: 'Activities that encourage rest, introspection, and a deeper connection with oneself and the natural world.', image: '/images/activities/relax.jpg' },
+    { name: 'Entertainment and Performance Arts', description: 'Experiences that offer enjoyment and inspiration through music, dance, and captivating performances.', image: '/images/activities/entertain.jpg' },
   ]
   
   export default function Example() {
@@ -30,6 +30,11 @@ const features = [
           <dl className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:max-w-none lg:grid-cols-3 lg:gap-x-8">
             {features.map((feature) => (
               <div key={feature.name} className="border-t border-gray-200 pt-4">
+                <img
+                  src={feature.image}
+                  alt={feature.name}
+                  className="h-48 w-full object-cover rounded-lg mb-4"
+                />
                 <dt className="font-medium text-gray-900">{feature.name}</dt>
                 <dd className="mt-2 text-sm text-gray-500">{feature.description}</dd>
               </div>

@@ -12,7 +12,7 @@ export default function Example() {
             <p className="mt-2 text-xl leading-12 text-gray-300">
             Embark on a Transformative Journey Along the Nile
             </p>
-            <p className="mt-6 text-lg leading-8 text-gray-300">
+            <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-600">
             Discover the heart of Egypt on our specially designed dahabiyas, crafted to elevate your energy and frequency through unique experiences. These elegant vessels are perfect for spiritual work and mystical exploration, offering a harmonious setting to connect with the essence of the Nile. Drift past ancient wonders and immerse yourself in the tranquil rhythm of the river, embarking on a journey of self-discovery and rejuvenation.
             </p>
           </div>

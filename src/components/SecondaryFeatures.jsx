@@ -273,7 +273,7 @@ export function SecondaryFeatures() {
           <h2 className="font-display mt-2 text-3xl font-bold tracking-tight text-gray-800 sm:text-4xl">
             VEDA DAHABIYAS
           </h2>
-          <p className="mt-2 text-lg tracking-wide font-normal leading-8 text-gray-600">
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-600">
             Discover peaceful platforms where every detail ensures a truly memorable stay.
           </p>
         </div>
