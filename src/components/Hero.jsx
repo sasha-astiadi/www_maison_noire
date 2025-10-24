@@ -33,11 +33,12 @@ export function Hero() {
           height={200}
           className="relative z-10 -mt-14 w-full h-auto"
         />
+      </div>
+      <div className="relative">
         <div
-          className="absolute inset-0 bg-cover bg-center opacity-50"
+          className="bg-cover bg-center"
           style={{ backgroundImage: 'url(/images/paper.jpg)' }}
-        />
-        <div className="relative bg-transparent">
+        >
           <div className="px-6 py-24 sm:py-32 lg:px-8">
             <div className="mx-auto max-w-2xl text-left">
               <p className="font-script text-2xl text-love-red mb-2 font-typewriter">Mon cher,</p>
