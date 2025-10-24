@@ -29,6 +29,7 @@ module.exports = {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
         display: ['Montserrat', 'sans-serif'],
+        typewriter: 'var(--font-jmh-typewriter)',
       },
       maxWidth: {
         '2xl': '40rem',
@@ -50,6 +51,7 @@ module.exports = {
           900: '#1F2937',
           200: '#E4E7EB',
         },
+        'love-red': '#bc0a0f',
         creme: {
           900: '#e3dfda',
           600: '#f6f1eb',

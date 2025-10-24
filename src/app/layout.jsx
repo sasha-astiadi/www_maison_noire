@@ -1,4 +1,5 @@
 import { Inter, Lexend } from 'next/font/google'
+import localFont from 'next/font/local'
 import clsx from 'clsx'
 
 import '@/styles/tailwind.css'
@@ -18,6 +19,11 @@ const inter = Inter({
   variable: '--font-inter',
 })
 
+const jmhTypewriter = localFont({
+  src: '../fonts/jmh_typewriter/JMH Typewriter.otf',
+  variable: '--font-jmh-typewriter',
+})
+
 const lexend = Lexend({
   subsets: ['latin'],
   display: 'swap',
@@ -29,9 +35,10 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       className={clsx(
-        'h-full scroll-smooth bg-creme-600 antialiased',
+        'h-full scroll-smooth antialiased',
         inter.variable,
         lexend.variable,
+        jmhTypewriter.variable,
       )}
     >
             <body className="flex h-full flex-col pt-20">
