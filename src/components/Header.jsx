@@ -26,7 +26,7 @@ function MobileNavIcon({ open }) {
   return (
     <svg
       aria-hidden="true"
-      className="h-3.5 w-3.5 overflow-visible stroke-slate-700"
+      className="h-3.5 w-3.5 overflow-visible stroke-white"
       fill="none"
       strokeWidth={2}
       strokeLinecap="round"
@@ -64,7 +64,7 @@ function MobileNavigation() {
       />
       <PopoverPanel
         transition
-        className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-lg bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5 data-[closed]:scale-95 data-[closed]:opacity-0 data-[enter]:duration-150 data-[leave]:duration-100 data-[enter]:ease-out data-[leave]:ease-in"
+        className="absolute inset-x-0 top-full flex origin-top flex-col bg-black/10 p-4 text-lg tracking-tight text-white backdrop-blur-sm data-[closed]:scale-95 data-[closed]:opacity-0 data-[enter]:duration-150 data-[leave]:duration-100 data-[enter]:ease-out data-[leave]:ease-in"
       >
         <MobileNavLink href="/">MENUS</MobileNavLink>
         <MobileNavLink href="/story">STORY</MobileNavLink>
