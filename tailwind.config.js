@@ -52,7 +52,7 @@ module.exports = {
         },
         creme: {
           900: '#e3dfda',
-          600: '#FEFAF5',
+          600: '#f6f1eb',
           200: '#fffdfb',
         },
       },
