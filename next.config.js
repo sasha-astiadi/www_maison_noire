@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true, // needed for static export
+  },
     webpack(config, options) {
       // Add file-loader for .mp4 files
       config.module.rules.push({

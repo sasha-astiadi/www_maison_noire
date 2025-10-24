@@ -27,7 +27,7 @@ function MobileNavIcon({ open }) {
   return (
     <svg
       aria-hidden="true"
-      className="h-3.5 w-3.5 overflow-visible stroke-white"
+      className="h-3.5 w-3.5 overflow-visible stroke-love-red"
       fill="none"
       strokeWidth={2}
       strokeLinecap="round"

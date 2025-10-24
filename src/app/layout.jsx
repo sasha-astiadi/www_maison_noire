@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
     >
                   <body className="flex h-full flex-col bg-black pt-20 text-slate-900">
         {children}
-      </body>
+              </body>
     </html>
   )
 }
