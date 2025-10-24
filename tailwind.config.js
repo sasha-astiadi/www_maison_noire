@@ -52,6 +52,7 @@ module.exports = {
           200: '#E4E7EB',
         },
         'love-red': '#bc0a0f',
+        base: '#faeee0',
         creme: {
           900: '#e3dfda',
           600: '#f6f1eb',

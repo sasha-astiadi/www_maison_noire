@@ -27,7 +27,7 @@ export function Hero() {
       <div className="relative">
         <Image
           unoptimized
-          src="/images/booktear.png"
+          src="/images/booktear1.png"
           alt="Page divider"
           width={1080}
           height={200}
@@ -36,10 +36,10 @@ export function Hero() {
       </div>
       <div className="relative">
         <div
-          className="bg-cover bg-center"
+          className="bg-cover bg-center -mt-14"
           style={{ backgroundImage: 'url(/images/paper.jpg)' }}
         >
-          <div className="px-6 py-24 sm:py-32 lg:px-8">
+          <div className="px-6 py-24 lg:px-8">
             <div className="mx-auto max-w-2xl text-left">
               <p className="font-script text-2xl text-love-red mb-2 font-typewriter">Mon cher,</p>
               <p className="font-typewriter text-xl max-w-2xl mx-auto leading-relaxed">
