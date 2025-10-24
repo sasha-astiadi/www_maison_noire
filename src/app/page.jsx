@@ -18,6 +18,7 @@ import Activities from '@/components/Activities'
 import Boats from '@/components/Boats'
 import Carousel from '@/components/Carousel'
 import CnnVideo from '@/components/CnnVideo'
+import { FeaturedOn } from '@/components/FeaturedOn'
 
 
 export default function Home() {
@@ -26,17 +27,7 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <CallToAction />
-        <Experiences />
-        <Boat />
-        <NewFeatures />
-        <NewFeatures2 />
-        <CallToAction2 />
-        <Carousel />
-        <Route />
-        <CnnVideo />
-        <Testimonials />
-        <CallToAction3 />
+        <FeaturedOn />
       </main>
       <Footer />
     </>

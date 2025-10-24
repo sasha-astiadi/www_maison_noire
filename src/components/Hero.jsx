@@ -2,33 +2,16 @@ import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoLaravel from '@/images/logos/laravel.svg'
-import logoMirage from '@/images/logos/mirage.svg'
-import logoStatamic from '@/images/logos/statamic.svg'
-import logoStaticKit from '@/images/logos/statickit.svg'
-import logoTransistor from '@/images/logos/transistor.svg'
-import logoTuple from '@/images/logos/tuple.svg'
-import logo1 from '@/images/logos/1.svg'
-import logo2 from '@/images/logos/2.svg'
-import logo3 from '@/images/logos/3.svg'
-import logo4 from '@/images/logos/4.svg'
-import logo5 from '@/images/logos/5.svg'
-import logo6 from '@/images/logos/6.svg'
+
 
 export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32 ">
       {/* Background Video */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
+      <div
         className="absolute inset-0 top-0 left-0 w-full h-full object-cover -z-10"
-      >
-        <source src="/videos/hero.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+        style={{ backgroundImage: 'url(/images/hero.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+      />
       <h1 className="relative z-10 mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-white sm:text-7xl">
         NILE CRUISES{' '}
         <span className="relative whitespace-nowrap text-gold-400">
@@ -43,57 +26,8 @@ export function Hero() {
           <span className="relative">REIMAGINED</span>
         </span>{' '}
       </h1>
-      <p className="relative z-10 mx-auto mt-6 max-w-2xl lg:text-xl text-sm tracking-wide font-normal text-slate-100">
-      Discover ancient Egypt and feel its special energies across the enchanting Nile river with our sophisticated cruises, boat rentals, healing packages, corporate retreats, private holidays, & more.
-      </p>
-      <div className="relative z-10 mt-10 mb-96 lg:mb-40 lg:py-2 xs:mb-20 flex justify-center gap-x-6 relative z-10">
-        <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          variant="outline"
-        >
-        <span className="text-white">VEDA Boats</span>
-        </Button>
-        <Button className="button-gold" href="/register">Plan Your Visit</Button>
-      </div>
       
 
-      {/* SECOND SECTION */}
-
-      <div className="relative z-10 pt-10">
-        <p className="mt-10 font-display text-large lg:text-2xl font-semibold italic text-slate-900">
-          As seen and featured on
-        </p>
-        <ul
-          role="list"
-          className="mt-8 flex items-center flex-wrap justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
-        >
-          {[
-            [
-              { name: 'CNN', logo: logo1 },
-              { name: 'HLS', logo: logo2 },
-              { name: 'Bookretreats', logo: logo3 },
-            ],
-            [
-              { name: 'Beaviajera', logo: logo4 },
-              { name: 'Egytalloyd', logo: logo5 },
-              { name: 'AST', logo: logo6 },
-            ],
-          ].map((group, groupIndex) => (
-            <li key={groupIndex}>
-              <ul
-                role="list"
-                className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"
-              >
-                {group.map((company) => (
-                  <li key={company.name} className="flex">
-                    <Image src={company.logo} alt={company.name} unoptimized />
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ul>
-      </div>
     </Container>
   )
 }
