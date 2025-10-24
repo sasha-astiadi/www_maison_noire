@@ -66,11 +66,10 @@ function MobileNavigation() {
         transition
         className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-lg bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5 data-[closed]:scale-95 data-[closed]:opacity-0 data-[enter]:duration-150 data-[leave]:duration-100 data-[enter]:ease-out data-[leave]:ease-in"
       >
-        <MobileNavLink href="/">HOME</MobileNavLink>
+        <MobileNavLink href="/">MENUS</MobileNavLink>
         <MobileNavLink href="/story">STORY</MobileNavLink>
-        <MobileNavLink href="/experiences">EXPERIENCES</MobileNavLink>
-        <MobileNavLink href="/dahabiyas">DAHABIYAS</MobileNavLink>
-        <MobileNavLink href="/itinerary">ITINERARY</MobileNavLink>
+        <MobileNavLink href="/experiences">EVENTS</MobileNavLink>
+        <MobileNavLink href="/dahabiyas">CONTACT</MobileNavLink>
       </PopoverPanel>
     </Popover>
   )
@@ -80,8 +79,9 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/10 backdrop-blur-sm py-3">
       <Container>
-        <nav className="relative z-50 flex justify-center">
-          <div className="flex items-center md:gap-x-12">
+        <nav className="relative z-50 flex items-center justify-between md:justify-center">
+          <div className="md:hidden" /> {/* Spacer for mobile */} 
+          <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/">MENUS</NavLink>
               <NavLink href="/story">STORY</NavLink>
@@ -89,10 +89,8 @@ export function Header() {
               <NavLink href="/dahabiyas">CONTACT</NavLink>
             </div>
           </div>
-          <div className="flex items-center gap-x-5 md:gap-x-8">
-            <div className="-mr-1 md:hidden">
-              <MobileNavigation />
-            </div>
+          <div className="md:hidden">
+            <MobileNavigation />
           </div>
         </nav>
       </Container>
