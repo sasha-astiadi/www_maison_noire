@@ -10,7 +10,7 @@ const BgNoise = () => {
         playsInline
         className="object-cover w-full h-full"
       >
-        <source src="/videos/noise2.mp4" type="video/mp4" />
+        <source src="/videos/noise.mp4" type="video/mp4" />
       </video>
     </div>
   );
