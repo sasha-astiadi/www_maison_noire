@@ -2,7 +2,7 @@ import React from 'react';
 
 const BgNoise = () => {
   return (
-        <div className="absolute inset-0 -z-10 h-full w-full opacity-20">
+        <div className="absolute inset-0 -z-10 h-full w-full opacity-25">
       <video
         autoPlay
         loop

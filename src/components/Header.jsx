@@ -11,7 +11,8 @@ import clsx from 'clsx'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import { Logo } from '@/components/Logo'
+import Image from 'next/image'
+
 import { NavLink } from '@/components/NavLink'
 
 function MobileNavLink({ href, children }) {
@@ -80,7 +81,11 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/10 backdrop-blur-sm py-3">
       <Container>
         <nav className="relative z-50 flex items-center justify-between md:justify-center">
-          <div className="md:hidden" /> {/* Spacer for mobile */} 
+          <div className="flex flex-1 items-center md:hidden">
+            <Link href="/" aria-label="Home">
+              <Image src="/images/logomark.svg" alt="" width="32" height="32" className="h-8 w-auto" unoptimized />
+            </Link>
+          </div> 
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/">MENUS</NavLink>

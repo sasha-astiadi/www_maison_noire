@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
         jmhTypewriter.variable,
       )}
     >
-                  <body className="flex h-full flex-col bg-base pt-20 text-slate-900">
+                  <body className="flex h-full flex-col bg-black pt-20 text-slate-900">
         {children}
       </body>
     </html>
