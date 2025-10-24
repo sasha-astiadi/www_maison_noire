@@ -11,7 +11,7 @@ export function Hero() {
         style={{ backgroundImage: 'url(/images/hero.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
       />
       <BgNoise />
-      <Container className="flex min-h-screen items-center pb-16 pt-20 text-center lg:pt-32">
+      <Container className="flex min-h-screen items-center justify-center text-center">
         <div className="relative z-10 mx-auto flex justify-center">
           <Image
             src="/images/noire_logo.png"

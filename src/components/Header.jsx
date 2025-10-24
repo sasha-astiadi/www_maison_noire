@@ -78,16 +78,15 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/20 backdrop-blur-sm py-4">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black/10 backdrop-blur-sm py-4">
       <Container>
         <nav className="relative z-50 flex justify-center">
           <div className="flex items-center md:gap-x-12">
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="/">HOME</NavLink>
+              <NavLink href="/">MENUS</NavLink>
               <NavLink href="/story">STORY</NavLink>
-              <NavLink href="/experiences">EXPERIENCES</NavLink>
-              <NavLink href="/dahabiyas">DAHABIYAS</NavLink>
-              <NavLink href="/itinerary">ITINERARY</NavLink>
+              <NavLink href="/experiences">EVENTS</NavLink>
+              <NavLink href="/dahabiyas">CONTACT</NavLink>
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
