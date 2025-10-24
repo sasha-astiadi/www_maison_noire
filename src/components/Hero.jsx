@@ -1,12 +1,10 @@
 import Image from 'next/image'
-
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 
-
 export function Hero() {
   return (
-    <Container className="pb-16 pt-20 text-center lg:pt-32 ">
+    <Container className="flex min-h-screen items-center pb-16 pt-20 text-center lg:pt-32">
       {/* Background Video */}
       <div
         className="absolute inset-0 top-0 left-0 w-full h-full object-cover -z-10"
@@ -26,8 +24,6 @@ export function Hero() {
           <span className="relative">REIMAGINED</span>
         </span>{' '}
       </h1>
-      
-
     </Container>
   )
 }
