@@ -34,7 +34,7 @@ export function Hero() {
         </div>
       </Container>
       </div>
-      <div className="relative">
+      <div className="relative hidden md:block">
         <Image
           unoptimized
           src="/images/booktear1.png"
@@ -46,10 +46,10 @@ export function Hero() {
       </div>
       <div className="relative">
         <div
-          className="bg-cover bg-center -mt-14"
+          className="bg-cover bg-center lg:-mt-14 mt-0"
           style={{ backgroundImage: 'url(/images/paper.jpg)', opacity: '0.9' }}
         >
-          <div className="px-6 py-24 lg:px-8">
+          <div className="px-8 py-24 lg:px-8">
             <div className="mx-auto max-w-2xl text-left">
               <p className="font-script text-2xl text-love-red mb-2 font-typewriter relative">
                 <span className="invisible">Mon cher,</span>

@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Booktear = ({ className }) => {
   return (
-    <div className={`w-full bg-transparent ${className || ''}`}>
+    <div className={`hidden md:block lg:block w-full bg-transparent ${className || ''}`}>
       <Image
         unoptimized
         src="/images/booktear.png"
