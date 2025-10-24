@@ -71,8 +71,6 @@ function MobileNavigation() {
         <MobileNavLink href="/experiences">EXPERIENCES</MobileNavLink>
         <MobileNavLink href="/dahabiyas">DAHABIYAS</MobileNavLink>
         <MobileNavLink href="/itinerary">ITINERARY</MobileNavLink>
-        <hr className="m-2 border-slate-300/40" />
-        <MobileNavLink href="/contact">BOOK NOW</MobileNavLink>
       </PopoverPanel>
     </Popover>
   )
@@ -82,11 +80,8 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/20 backdrop-blur-sm py-4">
       <Container>
-        <nav className="relative z-50 flex justify-between">
+        <nav className="relative z-50 flex justify-center">
           <div className="flex items-center md:gap-x-12">
-            <Link href="/" aria-label="Home" className="overflow-visible">
-              <Logo className="h-8 w-auto max-w-none sm:h-9 md:h-10 lg:h-11 xl:h-12" />
-            </Link>
             <div className="hidden md:flex md:gap-x-6">
               <NavLink href="/">HOME</NavLink>
               <NavLink href="/story">STORY</NavLink>
@@ -96,11 +91,6 @@ export function Header() {
             </div>
           </div>
           <div className="flex items-center gap-x-5 md:gap-x-8">
-            <Button href="/contact" color="blue">
-              <span className="font-semibold tracking-wide">
-                Book Now
-              </span>
-            </Button>
             <div className="-mr-1 md:hidden">
               <MobileNavigation />
             </div>

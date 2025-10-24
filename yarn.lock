@@ -1768,6 +1768,13 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@kevtucker/react-audio-player-bar@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/@kevtucker/react-audio-player-bar/-/react-audio-player-bar-0.0.2.tgz"
+  integrity sha512-OdyXLPTqutRIXgmiWYrpgOvD1QI7u7ohLGu0cHG8nEGcwbHBmrToQercW7h3Rz+Kt7hGcbtpUxshtcwptEmhiQ==
+  dependencies:
+    postcss "8"
+
 "@mui/core-downloads-tracker@^7.3.1":
   version "7.3.1"
   resolved "https://registry.npmjs.org/@mui/core-downloads-tracker/-/core-downloads-tracker-7.3.1.tgz"
@@ -10692,7 +10699,7 @@ postcss@^7.0.6:
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.0.0, postcss@^8.1.0, postcss@^8.2.14, postcss@^8.4.21, postcss@^8.4.23, postcss@^8.4.39, postcss@>=8.0.9:
+postcss@^8.0.0, postcss@^8.1.0, postcss@^8.2.14, postcss@^8.4.21, postcss@^8.4.23, postcss@^8.4.39, postcss@>=8.0.9, postcss@8:
   version "8.4.39"
   resolved "https://registry.npmjs.org/postcss/-/postcss-8.4.39.tgz"
   integrity sha512-0vzE+lAiG7hZl1/9I8yzKLx3aR9Xbof3fBHKunvMfOCYAtMhrsnccJY2iTURb9EZd5+pLuiNV9/c/GZJOHsgIw==
