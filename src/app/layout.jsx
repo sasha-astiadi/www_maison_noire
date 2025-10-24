@@ -1,6 +1,7 @@
 import { Inter, Lexend } from 'next/font/google'
 import clsx from 'clsx'
 
+import BottomAudioPlayer from '@/components/ui/AudioPlayerBar'
 import '@/styles/tailwind.css'
 
 export const metadata = {
@@ -34,7 +35,10 @@ export default function RootLayout({ children }) {
         lexend.variable,
       )}
     >
-      <body className="flex h-full flex-col pt-20">{children}</body>
+            <body className="flex h-full flex-col pt-20">
+        {children}
+        <BottomAudioPlayer />
+      </body>
     </html>
   )
 }

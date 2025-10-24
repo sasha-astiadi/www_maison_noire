@@ -1,3 +1,5 @@
+'use client';
+
 import AudioPlayerBar from '@kevtucker/react-audio-player-bar';
 
 function BottomAudioPlayer() {
