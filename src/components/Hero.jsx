@@ -83,7 +83,7 @@ export function Hero() {
           <div className="px-8 py-24 lg:px-8">
             <div className="mx-auto max-w-2xl text-left">
               <p className="font-script text-2xl text-love-red mb-2 font-typewriter relative">
-                <span className="invisible">Mon cher,</span>
+                <span className="invisible">Ma chérie,</span>
                 {isClient && (
                   <span className="absolute top-0 left-0">
                     <Typewriter
@@ -91,14 +91,14 @@ export function Hero() {
                         delay: 75,
                       }}
                       onInit={(typewriter) => {
-                        typewriter.typeString('Mon cher,').start()
+                        typewriter.typeString('Ma chérie,').start()
                       }}
                     />
                   </span>
                 )}
               </p>
               <p className="font-typewriter text-xl max-w-2xl mx-auto leading-relaxed relative">
-                <span className="invisible" dangerouslySetInnerHTML={{ __html: 'If you find yourself here, you’ve survived the noise.<br />Sit, let the glass sweat a little.<br />The band will start soon, and perhaps someone will meet your eyes before the chorus ends.<br />If not, the night still owes you a dance.' }} />
+                <span className="invisible" dangerouslySetInnerHTML={{ __html: 'If you find yourself here, you’ve survived the noise.<br />Sit, let the glass sweat a little.<br />The band will start soon, and perhaps someone will meet your eyes before the chorus ends.<br />If not, the night still owes you a dance...' }} />
                 {isClient && (
                   <span className="absolute top-0 left-0">
                     <Typewriter
@@ -118,7 +118,7 @@ export function Hero() {
                             'The band will start soon, and perhaps someone will meet your eyes before the chorus ends.<br />',
                           )
                           .pauseFor(500)
-                          .typeString('If not, the night still owes you a dance.')
+                          .typeString('If not, the night still owes you a dance...')
                           .start()
                       }}
                     />
